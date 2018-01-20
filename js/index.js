@@ -32,7 +32,7 @@ $.ajax({
 $.getScript
 ("https://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js",function()
 {
-    getFullWeather(remote_ip_info.city);
+    getFullWeather("太原");
 }
 );
 // 获取当前城市的所有天气信息
